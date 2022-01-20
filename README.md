@@ -7,6 +7,9 @@ We use a dataset captured with the Vizzy robot during a block assembly game, com
 Regarding the impact of input data, we observe that: (i) emotions improve the error detection step but not the error classification step, and (ii) the actions of the robot improves both error detection and error classification. Regarding the learning algorithms, Random Forest achieves the best performance both in error detection and error classification. A median filter on the error classification result increased the performance of Random Forest to 79.63\% mean accuracy.
 
 In folder DetectErrorCode is located information regarding the dataset used in this work.
+
 There is also the two best trained models for error detection and classification.
+
 In file CompErrDetect.py you can run it to compare our best model to a model that uses features used in previous works.
+
 In file RecogEmotion.py there's an example of how we obtained emotions from the participants, more detail regarding this can be found in our paper.
