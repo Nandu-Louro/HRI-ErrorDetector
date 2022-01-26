@@ -12,4 +12,4 @@ There is also the two best trained models for error detection and classification
 
 You can run CompErrDetect.py to compare our best model to a model that uses features used in previous works.
 
-In the file RecogEmotion.py there's an example of how we obtained emotions from the participants, more detail regarding this can be found in our paper.
+In the file RecogEmotion.py there's an example of how we obtained emotions from the participants using output from openFace, more detail regarding this can be found in our paper.
